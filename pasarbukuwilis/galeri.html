@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pasar Buku Wilis</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css.map">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+	<script>
+		$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+      	scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+    });
+    }  // End if
+});
+});
+	</script>
+
+	
+<style>
+.container
+{
+	margin-top:100px;
+}
+
+.container h1
+{
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	
+}
+.container img
+{
+	max-width:250px;
+	max-height:150px;
+	text-decoration:none;
+	
+}
+.caption p
+{
+	color:#B22222;
+	font-family:calibri;
+	font-size:17px;
+	text-align:center;
+	font-weight:600;
+	text-decoration:none;
+}
+
+.caption p:hover
+{
+	text-decoration:none;
+	color:black;
+}
+
+.row a
+{
+text-decoration:none;
+}
+
+div.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail img:hover
+{
+	opacity: 0.7;
+}
+</style>
+	
+	
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	<div style="background-color:#B22222;height:10px;">
+			</div>
+		<div class="container-fluid" id="top">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="home.html"><img src="Picture1.png" alt="Pasar Buku Willis" class="navbar-logo" style="margin-top:-10px;margin-left:50px; max-width: 35%;"></a>
+				<h1 style="float:left;margin-left:-50px;">PASAR BUKU WILIS</h1>
+			</div>
+			<div id="top">
+			
+				<div class="collapse navbar-collapse" id="myNavbar" style="font-family:calibri;font-size:17px;">
+					
+					<ul class="nav navbar-nav navbar-right"  >
+						<li ><a class="active" href="home.html"><b>BERANDA</b></a></li>
+						<li><a class="active" href="profil.html"><b>PROFIL</b></a></li>
+						<li><a class="active" href="layanan.html"><b>LAYANAN</b></a></li>
+						<li><a class="active"  style="color:white; background-color: #B22222;"  href="galeri.html" data-toggle="tooltip" title="Galeri"><b>GALERI</b></a></li>
+						
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div>
+	</nav>
+
+	
+	
+	<div class="container">
+<h1>Galeri Kegiatan</h1>
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/1.jpg" target="_blank">
+          <img src="resources/1.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Pengajian</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/2.jpg" target="_blank">
+          <img src="resources/2.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Pengecatan Massal</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/3.jpg" target="_blank">
+          <img src="resources/3.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Pengecatan Massal</p>
+          </div>
+        </a>
+      </div>
+    </div>
+	   <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/4.jpg" target="_blank">
+          <img src="resources/4.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Pengecatan Massal</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+    <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/5.jpg" target="_blank">
+          <img src="resources/5.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Lomba Mewarna</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/6.jpg" target="_blank">
+          <img src="resources/6.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Syukuran 17 Agustus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/7.jpg" target="_blank">
+          <img src="resources/7.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Syukuran 17 Agustus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+	   <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/8.jpg" target="_blank">
+          <img src="resources/8.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Syukuran 17 Agustus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+    <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/9.jpg" target="_blank">
+          <img src="resources/9.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Syukuran 17 Agustus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/10.jpg" target="_blank">
+          <img src="resources/10.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Syukuran 17 Agustus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/11.jpg" target="_blank">
+          <img src="resources/11.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Syukuran 17 Agustus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+	   <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="resources/12.jpg" target="_blank">
+          <img src="resources/12.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Kegiatan Syukuran 17 Agustus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+	
+
+	<footer>
+		<div class="container-fluid" id="contactUs">
+			<div align="left">
+				<img src="logo.png" alt="BakeIT" id="footer-img">
+				<div id="footer-text">
+					<h3 id="contact">Contact Information</h3>
+					<div id="dividefooter"></div>
+					<p>Address	Villa Puncak Tidar N-1 Malang</p>
+					<p>Email	martien96.mf@gmail.com</p>
+					<p>LINE		martien96</p>
+					<p>Whatsapp	085655501701</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

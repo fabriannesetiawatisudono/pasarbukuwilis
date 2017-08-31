@@ -1,0 +1,491 @@
+body {
+	font-family: 'Oswald',sans-serif !important;
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+.top-navbar-list a:hover {
+	color: #CCB18A;
+	text-decoration: none;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-logo {
+	margin-top: -15px;
+}
+
+.navbar.navbar-default {
+	background-color: white;
+	margin-bottom: 0;
+	height:90px;
+}
+
+.top-navbar {
+	padding-left: 25px;
+	padding-right: 25px;
+	min-width: 100%;
+	height:36px;
+	color: #c9c9c9;
+	background-color: #FFDEAD;
+	line-height: 36px;
+	font-size: 10px;
+}
+
+.top-navbar-rightlist {
+	position: absolute;
+	top: 0%;
+	right:0%;
+}
+
+.top-navbar-list {
+	font-size: 14px;
+	color: black;
+	display: inline;
+	margin-right: 20px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content a {
+	color: black;
+	padding: 3px 15px;
+	text-decoration: none;
+	display: block;
+	line-height: 15px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFDEAD;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 999;
+	margin-top: -2px;
+	margin-left: -13px;
+	border:none;
+	padding-bottom: 5px;
+	padding-top: 5px
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-margin {
+	margin-bottom: 10px;
+}
+
+.div-title {
+	text-align: center;
+}
+
+.affix-link {
+	font-size: 18px;
+}
+
+.carousel-image {
+	min-height: 544px;
+}
+
+.parallax {
+	background-image: url("parallax-background.jpg");
+	height: 440px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.parallax2 {
+	background-image: url("parallax2-background.jpg");
+	height: 380px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.parallax3 {
+	background-image: url("parallax3-background.jpg");
+	height: 380px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.parallax4 {
+	background-image: url("masjid.jpg");
+	height: 380px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.parallax5{
+	background-image: url("parkir.jpg");
+	height: 380px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.parallax6{
+	background-image: url("duduk.jpg");
+	height: 450px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.col-sm-3 {
+	padding: 0;
+	margin: 0;
+}
+
+#margin-remove {
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	background-position: 0px -20px;
+}
+
+#mainsection {
+	position: relative;
+	text-align: center;
+	margin-top: -20px;
+	color:white;
+}
+
+#about-mainsection {
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+	color:white;
+}
+
+#overlay-div {
+	background-color: RGBA(0,0,0,0.5);
+	height:100%;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 35px;
+}
+
+
+#overlay-div3 {
+	background-color: RGBA(0,0,0,0.8);
+	height:100%;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 35px;
+}
+
+
+#header-overlay {
+	background-color: RGBA(0,0,0,0.5);
+	height:100%;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 0;
+	letter-spacing: 2px;
+}
+
+#overlay-div2 {
+	background-color: RGBA(255,255,255,0.25);
+	height:100%;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 35px;
+}
+
+
+.carousel-content {
+	background-color: RGBA(0,0,0,0.7);
+	position: absolute;
+	bottom: 0%;
+	left:0%
+	right:0%;
+	width: 100%;
+	z-index: 50;
+	color: white;
+	padding-left: 50px;
+	padding-bottom: 25px;
+
+} 
+
+#top {
+	height:100%;
+	padding-bottom: 0;
+}
+
+#myCarousel {
+	margin-top: 90px;
+	max-width: 100%;
+	min-width:100%;
+}
+
+#carousel-head-text {
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+
+#carousel-additional-text {
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size:15px;
+}
+
+#parallax-text {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 3px;
+}
+
+#parallax2-text {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 3px;
+	color: white;	
+}
+
+#category img {
+	height:100px;
+	transition:0.9s;
+}
+
+#category img:hover {
+	height:200px;
+}
+
+#category {
+	background-color: RGBA(0,0,0,0.5);
+	margin-left: 300px;
+	margin-right: 0;
+	margin-top:50px;
+	margin-bottom: 0;
+	width: auto;
+	height: auto;
+	position: relative;
+	font-family: 'Oswald',sans-serif;
+	font-size: 17px;
+}
+
+#myNavbar {
+	margin-top:13px;
+	margin-right:25px;
+	letter-spacing: 2px;
+	
+}
+
+#myNavbar a :hover {
+	color:#B22222;
+}
+
+#between-text {
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+#best-seller {
+	padding-top: 40px;
+	padding-bottom: 30px;
+
+}
+
+#best-item img {
+	width: 100%;
+	height: 100%;
+	 
+}
+
+#parallax2-text-content {
+	text-align: center;
+	color: black;
+}
+
+#small-text {
+	letter-spacing: 1px;
+}
+
+#img2 {
+	margin-top: 121px;
+}
+
+#img3 {
+	margin-top: 20px;
+}
+
+#img4 {
+	margin-top: 3px;
+}
+
+#footer-img {
+	float: left;
+	margin-left: 400px;
+}
+
+#footer-text {
+	float:left;
+}
+
+#contactUs {
+	background-color: black;
+	color:white;
+	padding-left: 0;
+}
+
+#image-detail{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 25;
+}
+
+@media(min-width:768px) {
+	.sidebar {
+		z-index: 1;
+		position: absolute;
+		width: 250px;
+		margin-bottom: 0;
+		height: 750px;
+		background-color: #FFDEAD !important;
+	}
+}
+
+@media(min-width:768px) {
+	.detail-sidebar {
+		z-index: 1;
+		position: absolute;
+		width: 250px;
+		margin-bottom: 0;
+		height: 445px;
+		background-color: #FFDEAD !important;
+	}
+}
+
+.sidebar .sidebar-search {
+	padding: 15px;
+	border-radius: 10;
+}
+
+.sidebar-nav.navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#header-data {
+	padding-left: 0;
+	padding-right: 0;
+	height:145px;
+	background-image: url("parallax-background.jpg");
+	background-size: cover;
+}
+
+.col-md-6 {
+	padding-right: -10px !important;
+}
+
+.col-lg-6 {
+	padding-left: 0 !important;
+	padding-top: 25px;
+	color: white;
+}
+
+#content-wrapper {
+	padding: 0 15px;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	height: 750px;
+	background-color: #fff;
+	margin-left: 250px;
+	overflow: auto;
+}
+
+#content-detail-wrapper {
+	padding: 0 15px;
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	height: 445px;
+	background-color: #fff;
+	margin-left: 250px;
+	overflow: auto;
+}
+
+#main-content {
+	padding: 0;
+}
+
+#category-thumbnail {
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 250px;
+	float: left;
+	transition:0.5s;
+}
+
+#category-thumbnail a{
+	color: black;
+	text-align: center;
+}
+
+#category-thumbnail a:hover{
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+#category-thumbnail:hover {
+	transition:0.5s;
+	background-color: #CCCCCC;
+}
+
+.row.container-fluid {
+	padding-bottom: 25px;
+}
+
+#category-title {
+	text-align: center;
+}
+
+.side-list {
+	color: black;
+	letter-spacing: 1px;
+}
+
+.thumbnail h4{
+	z-index: 25;
+}
+
+#detail-image {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#detail-data {
+	padding-top: 25px;
+}
+
+#order-number {
+	width:55px;
+	margin-right: 10px;
+	margin-top:20px;
+	margin-left: 50px;
+}

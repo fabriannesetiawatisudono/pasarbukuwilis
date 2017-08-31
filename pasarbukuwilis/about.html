@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About us - Timbul Jaya Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="about_style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<h4>Welcome to Timbul Jaya Store </h4>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="home.html"><img src="house.png" style="width: 20px; height: 20px;"></a></li>
+			</ul>
+			<div class="col-lg-6">
+				<div class="input-group" id="search">
+					<input type="text" class="form-control" placeholder="Search for...">
+					<span class="input-group-btn">
+						<a href="footwear.html"><button class="btn btn-default" type="button">Go!</button></a>
+					</span>
+				</div><!-- /input-group -->
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				
+				<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container" id="atas">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="col-lg-4">
+					<div class="dropdown">
+						<button class="dropbtn">CHILD</button>
+						<div class="dropdown-content">
+							<a href="footwear.html">Footwear</a>
+							<a href="accessories.html">Accessories</a>
+							<a href="apparel.html">Apparel</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3">
+						<div class="dropdown">
+							<button class="dropbtn">MEN</button>
+							<div class="dropdown-content">
+								<a href="footwear.html">Footwear</a>
+								<a href="accessories.html">Accessories</a>
+								<a href="apparel.html">Apparel</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="dropdown">
+							<button class="dropbtn">WOMEN</button>
+							<div class="dropdown-content">
+								<a href="footwear.html">Footwear</a>
+								<a href="accessories.html">Accessories</a>
+								<a href="apparel.html">Apparel</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container"><br><br><br><br>
+		<h1>About us</h1>
+		<hr>
+		<div class="col-lg-12">
+			<div class="col-lg-6">
+				<h3>Contact us:</h3>
+				<ul id="cs">
+					<li><a href="#"><img src="whatsapp.png">: +62-812-123-123</a></li>
+					<li><a href="#"><img src="line.png">: @timbuljayastore</a></li>
+					<li><a href="#"><img src="bbm.png">: E43TF12</a></li><br>
+				</ul><br>
+				<hr>
+				<h3>Work with us</h3><br>
+				<strong><p>VIDEO PRODUCTION STAFF (VP)</p></strong>
+				<ul>
+					<li> Diutamakan Pria Usia max. 27 Tahun</li>
+					<li> Min. D3/S1 semua jurusan dari Universitas Terkemuka.</li>
+					<li>Berpenampilan menarik.</li>
+					<li>Mempunyai minat di bidang video, minimal sudah menguasai dasar-dasar editing.</li>
+					<li>Menyertakan Portofolio.</li>
+					<li>Bersedia berkeliling Indonesia.</li>
+				</ul>
+
+				<strong><p>REPORTER (RP)</p></strong>
+				<ul>
+					<li> Pria/wanita Usia max. 25 tahun </li>
+					<li> Min. D3/S1 semua jurusan dari Universitas Terkemuka.</li>
+					<li>Berpenampilan menarik.</li>
+					<li>Mampu berkomunikasi dengan baik dan memiliki wawasan luas.</li>
+					<li>Memiliki kemampuan dalam menulis artikel di web dan sosial media.</li>
+					<li>Memahami tentang jurnalistik.</li>
+					<li>Mengerti tentang basket merupakan nilai tambah.</li>
+				</ul>
+			
+
+				<strong><p> WAREHOUSE STAFF (WS)</p></strong>
+				<ul>
+					<li> Pria Usia max. 25 Tahun</li>
+					<li> Lulusan min. SMA/SMK.</li>
+					<li>Berpenampilan menarik.</li>
+					<li>Mampu mengemudikan kendaraan roda 4 dan memiliki SIM A.</li>
+					<li>Menyertakan Portofolio.</li>
+					<li>Mengerti tentang asset management, procurement, dan operasional.</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-6">
+				<h3>Maps</h3>
+				<p>Our location:</p>
+
+				<div id="map" style="width:500px;height:500px;background:yellow"></div>
+
+				<script>
+					function myMap() {
+						var mapCanvas = document.getElementById("map");
+						var mapOptions = {
+							center: new google.maps.LatLng(-7.982736, 112.630572), zoom: 10
+						};
+						var map = new google.maps.Map(mapCanvas, mapOptions);
+					}
+				</script>
+
+				<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+				<h2>Social Media</h2>
+				<hr>
+				<a href="#">
+					<img src="facebook.jpg">
+				</a>
+				<a href="#">
+					<img src="instagram.jpg">
+				</a>
+				<a href="#">
+					<img src="youtube.jpg">
+				</a>
+				<a href="#">
+					<img src="twitter.jpg">
+				</a>
+			</div><br>
+		</div><br>
+	</div><br><br>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pasar Buku Wilis</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css.map">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+	<script>
+		$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+      	scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+    });
+    }  // End if
+});
+});
+	</script>
+
+	
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	<div style="background-color:#B22222;height:10px;">
+			</div>
+		<div class="container-fluid" id="top">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="home.html"><img src="Picture1.png" alt="Pasar Buku Willis" class="navbar-logo" style="margin-top:-10px;margin-left:50px; max-width: 35%;"></a>
+				<h1 style="float:left;margin-left:-50px;">PASAR BUKU WILIS</h1>
+			</div>
+			<div id="top">
+			
+				<div class="collapse navbar-collapse" id="myNavbar" style="font-family:calibri;font-size:17px;">
+					
+					<ul class="nav navbar-nav navbar-right"  >
+						<li ><a class="active" href="home.html"><b>BERANDA</b></a></li>
+						<li><a class="active"  style="color:white; background-color: #B22222;"  href="profil.html" data-toggle="tooltip" title="Profil"><b>PROFIL</b></a></li>
+						<li><a class="active" href="layanan.html"><b>LAYANAN</b></a></li>
+						<li><a class="active" href="galeri.html"><b>GALERI</b></a></li>
+						<li><a class="active" href="about.html"><b>TENTANG KAMI</b></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div>
+	</nav>
+	
+		
+	
+	
+	
+	
+	<div style="margin-top:150px;">
+		<h3 style="margin-left:70px;font-weight: 600;color:#483D8B;">Visi dan Misi Pasar Buku Wilis</h3>
+		
+		<div> <img src="c.jpg" class="img-circle" width="20%"  style="float:right;margin-right:60px;" ></div>
+		 
+		<div class="panel panel-info" style="margin-left:70px;margin-right:350px;font-size:20px;font-family:calibri;font-weight: 600; text-align: justify; ">
+		
+		  <div class="panel-heading">
+		   
+		  <p>
+		Pasar Buku Wilis terletak di Jalan Wilis kota Malang, termasuk Kelurahan Gading Kasri (kode pos 65115, kode wilayah 35.73.02.1010), Kecamatan Klojen, Kota Malang, Jawa Timur. Gading Kasri (6 RW). Kelurahan tersebut memiliki luas wilayah 65 km, dengan batas wilayah sebelah utara Sumber Sari, sebelah selatan Bareng, sebelah barat Karang Besuki, dan sebelah timur Oro-Oro Dowo. Jarak dari pusat pemerintahan kecamatan yaitu 1 km, jarak dari pusat pemerintahan kota 2 km, jarak dari ibukota kabupaten 2 km, dan jarak dari Ibukota provinsi 89 km. Lokasi pasar buku Wilis merupakan sebuah jalan arteri yang terletak di sebelah barat Museum Brawijaya. Jalan Wilis dapat diakses melalui jalan Kawi, Jalan Ijen atau Jalan Galunggung, selain itu tempatnya hanya berjarak 200 meter di sebelah utara wisata Malang jalan Pulosari.
+		</p>
+		
+		</div>
+		</div>
+	
+	</div>
+
+	
+		<div style="margin-top:100px;">
+	<h3 style="margin-left:350px;font-weight: 600;color: #3CB371;">Sejarah Pasar Buku Wilis</h3>
+	<div> <img src="c.jpg" class="img-thumbnail" width="20%"  style="float:left;margin-left:60px;" ></div>
+	
+	<div class="panel panel-success" style="margin-right:70px;margin-left:350px;font-size:20px;font-family:calibri;font-weight: 600; text-align: justify; ">
+		
+		  <div class="panel-heading">
+		   
+		  <p>
+	Menurut Pak Ahmad, ketua paguyuban Pasar Buku Wilis, sejarah pasar Buku Wilis dimulai dari pedagang buku dengan gerobak di Kayu Tangan pada tahun 1972. Pada awalnya para penjualnya berjualan kertas kilioan. Pak Ahmad sendiri mulai berdagangan buku pada tahun 1974. Setelah itu para pedangang pindah ke Jalan Ade Irma Suryani (dekat kantor pusat pegadaian sekarang), dari Ade Irma Suryani pindah ke Jalan Letjend Sutoyo (sekitar daerah Mitra 2), kemudian kembali lagi ke Kayu Tangan. Para pedangan buku ini kemudian pindah ke ke Blok M (istilah para pedangang untuk menyebut Jalan Majapahit di sebelah selatan balai kota). Sejarah Pasar Buku Wilis terbentuk di Blok M.
+	
+Di sepanjang Jalan Majapahit tersebut berjajar penjual ditempat semi permanen yang menjual berbagai macam buku bekas mulai dari yang masih menggunakan bahasa Belanda, Inggris, Jerman, dan bahasa Indonesia ejaan lama. Tiap hari tempat tersebut dikunjungi oleh banyak orang yang mencari buku-buku bekas dengan harga yang tentunya jauh lebih murah dibanding buku asli yang masih baru.
+
+Karena para pedagang yang berjualan ditrotoar, jalan menjadi tidak teratur ditambah lagi cukup besarnya minat pembeli yang mengunjungi tempat tersebut akhirnya menimbulkan kemacetan dan ketidakrapian tata kota. Hal ini seiring dengan bertumbuhnya omzet penjualan perdagangan buku dan trafik pembeli. Namun hal ini menjadi permasalahan bagi Pemerintah Kota Malang, karena berkaitan dengan kerapian tata kota.
+
+Maka sebagai solusinya dilakukan relokasi pedagang buku Blok M ke Jalan Simpang Wilis. Kebijakan pemerintah tersebut sempat menimbulkan pro dan kontra, namun setelah dilakukan komunikasi yang baik oleh Pemerintah Kota Malang kepada para pedagang akhirnya para pedagang buku yang sebelumnya berjualan di blok M bersedia direlokasi ke Pasar Buku Wilis. Oleh karena itu, Pasar Buku ini kini lebih dikenal masyarakat dengan sebutan "Wilis".
+
+Pada 12 Juni 2003, Pasar Buku Wilis diresmikan penggunannya oleh H. Suyitno, Walikota Malang. Pada waktu itu ada enam puluh delapan kios ditempat tersebut, hal ini sesuai dengan jumlah pedagang buku di blok M, yaitu dua puluh dua pedagang dengan kios permanen dan empat puluh enam pedagang kios semipermanen.
+
+Sejak tahun 2003, Pasar Buku Wilis ini dikelola khusus untuk dijadikan sebagai pasar buku bekas dan baru. Keberadaannya memang ditujukan untuk menunjang kebutuhan masyarakat kota Malang yang dikenal sebagai Kota Pelajar akan ilmu melalui penjualan buku-bukunya. Masyarakat pun banyak diuntungkan dengan keberadaan pasar buku ini, karena harga yang dijual di sini tergolong murah dan masih bisa ditawar.
+
+Dalam perkembangannnya menurut Pak Heru, sebagai sekretaris paguyuban tersebut menceritakan kepada kami, bahwa komunitas itu pernah menerima bantuan dari pemerintah untuk perbaikan fasilitas yang ada di pasar tersebut, seperti renovasi bangunan dan perbaikan jalan.
+
+Beberapa tahun yang lalu menurut Pak Heru, Kepala Dinas perdagangan setempat pernah mengajukan proposal ke Dinas Pemerintah Kota Malang untuk memperbaiki fasilitas yang ada di tempat tersebut. Namun menurut Pak Heru agar APBD tersebut dananya dapat cair untuk perealisasiannnya dibutuhkan waktu cukup lama yaitu sekitar dua sampai tiga tahun setelah pengajuan proposal. Meskipun cukup lama namun anggaran tersebut cukup membantu dalm memperbaiki fasilitas-fasilitas yang ada di tempat tersebut. Dengan diperbaikinya fasilitas-fasilitas yang ada di tempat tersebut seperti jalan, memberikan keuntungan kepada para pedagang yang berjualan di komunitas tersebut, seperti para pedagang dapat lebih mudah melakukan akses pembelian buku-buku dagangan dari para penerbit dan para pembeli dapat lebih mudah untuk mengakses tempat tersebut dan dapat berbelanja dengan lebih nyaman di pasar buku itu.
+
+Walaupun sebagian fasilitas yang ada ditempat tersebut diperbaiki oleh pemerintah, namun sebagian lagi dari fasilitas yang tidak diperbaiki oleh pemerintah secara langsung menjadi tanggung jawab para pedagang yang ada ditempat tersebut, sehingga para pedagang harus memberikan iuran agar dapat memperbaiki kerusakan fasilitas yang ada di tempat tersebut.
+	</p>
+		
+		</div>
+		</div>
+	
+	</div>
+	
+	<div style="margin-top:100px;margin-bottom:100px;">
+	<h3 style="margin-left:70px;font-weight: 600;color:#F4A460;">Lokasi Pasar Buku Wilis</h3>
+	<div> <img src="c.jpg" class="img-circle" width="20%"  style="float:right;margin-right:60px;"></div>
+	
+	<div class="panel panel-warning" style="margin-left:70px;margin-right:350px;font-size:20px;font-family:calibri;font-weight: 600; text-align: justify;">
+		
+		  <div class="panel-heading">
+		   
+		  <p>
+	Pasar Buku Wilis terletak di Jalan Wilis kota Malang, termasuk Kelurahan Gading Kasri (kode pos 65115, kode wilayah 35.73.02.1010), Kecamatan Klojen, Kota Malang, Jawa Timur. Gading Kasri (6 RW). Kelurahan tersebut memiliki luas wilayah 65 km, dengan batas wilayah sebelah utara Sumber Sari, sebelah selatan Bareng, sebelah barat Karang Besuki, dan sebelah timur Oro-Oro Dowo. Jarak dari pusat pemerintahan kecamatan yaitu 1 km, jarak dari pusat pemerintahan kota 2 km, jarak dari ibukota kabupaten 2 km, dan jarak dari Ibukota provinsi 89 km. Lokasi pasar buku Wilis merupakan sebuah jalan arteri yang terletak di sebelah barat Museum Brawijaya. Jalan Wilis dapat diakses melalui jalan Kawi, Jalan Ijen atau Jalan Galunggung, selain itu tempatnya hanya berjarak 200 meter di sebelah utara wisata Malang jalan Pulosari.
+		</p>
+		
+		</div>
+		</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+	<footer>
+		<div class="container-fluid" id="contactUs">
+			<div align="left">
+				<img src="logo.png" alt="BakeIT" id="footer-img">
+				<div id="footer-text">
+					<h3 id="contact">Contact Information</h3>
+					<div id="dividefooter"></div>
+					<p>Address	Villa Puncak Tidar N-1 Malang</p>
+					<p>Email	martien96.mf@gmail.com</p>
+					<p>LINE		martien96</p>
+					<p>Whatsapp	085655501701</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

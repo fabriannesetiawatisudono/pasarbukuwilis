@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pasar Buku Wilis</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css.map">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+
+
+	<script>
+		$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+      	scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+    });
+    }  // End if
+});
+});
+	</script>
+
+<style>
+
+.thirdsection 
+{
+	height: 50%;
+	min-height: 200px;
+}
+.bgthirdsection 
+{
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.bagian1 
+{
+	margin-top: 50px;
+}
+
+.bagian1 h1 
+{
+
+	font-family: 'josefin_sansregular';
+	color:#B22222;
+	font-weight: 600;
+	font-size:40px;
+}
+.bagian1 h2 
+{
+	
+	margin-left:100px;
+	margin-right:100px;
+	font-family: 'josefin_sansregular';
+	font-size:30px;
+	
+
+}
+.dividerthird 
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.dividersectionthird 
+{
+	border-bottom: 1px solid #c3bdb7;
+	width: 100%;
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dividersecond {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.dividersectionsecond {
+	border-bottom: 1px solid #c3bdb7;
+	width: 100%;
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#parkir {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 550px;
+	margin-top: 25px;
+	display: block;
+	padding: 15px;
+	border: 1px solid white;
+	color: white;
+	text-transform: uppercase;
+}
+
+#parkir h2
+{
+	font-size:37px;
+	text-transform:uppercase;
+	font-weight:900;
+	font-family: 'josefin_sansregular';
+	color: white;"
+}
+#parkir h3
+{
+	font-size:20px;
+	text-align:center;
+	margin-left:60px;
+	text-transform: uppercase;
+	font-family:'josefin_sansregular';
+	color: white;
+	padding-right:75px;"
+}
+
+#parkir:hover {
+	background-color: RGBA(0,0,0,0.9);
+}
+#duduk:hover {
+	background-color: RGBA(0,0,0,0.9);
+}
+#duduk {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 550px;
+	margin-top: 25px;
+	display: block;
+	padding: 15px;
+	border: 1px solid white;
+	color: white;
+	background-color: RGBA(0,0,0,0.6);
+}
+
+#duduk h2
+{
+	font-size:37px;
+	text-transform:uppercase;
+	font-weight:900;
+	font-family: 'josefin_sansregular';
+	color: white;"
+}
+#duduk h3
+{
+	font-size:20px;
+	text-align:center;
+	margin-left:10px;
+	text-transform: uppercase;
+	font-family:'josefin_sansregular';
+	color: white;
+}
+
+
+.row
+{
+	margin-left:100px;
+	margin-right:100px;
+}
+
+
+.row img
+{
+	max-width:150px;
+	max-height:150px;
+	min-width:150px;
+	min-height:150px;
+	
+}
+.caption p
+{
+	text-align:center;
+	font-family: 'josefin_sansregular';
+	font-size:21px;
+	font-weight:600;
+	color:#808080;
+}
+.caption1 p
+{
+	padding-right:20px;
+	text-align:justify;
+	font-size:30px;
+	color:#808080;
+	font-family: 'josefin_sansregular';
+}
+.caption2 p
+{
+	padding-left:20px;
+	text-align:justify;
+	font-size:30px;
+	color:#808080;
+	font-family: 'josefin_sansregular';
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin-left:10px;
+  margin-bottom:21px;
+  
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 91%;
+  transition: .5s ease;
+}
+
+.thumbnail:hover .overlay1 {
+  width: 92%;
+}
+
+.text1 {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.thumbnail{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#r4
+{
+	max-width:190px;
+	max-height:190px;
+	min-width:190px;
+	min-height:190px;
+	padding-right:1px;
+	padding-left:1px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#r4 img:hover
+{
+	opacity: 0.7;
+}
+</style>
+
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	<div style="background-color:#B22222;height:10px;">
+			</div>
+		<div class="container-fluid" id="top">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="home.html"><img src="Picture1.png" alt="Pasar Buku Willis" class="navbar-logo" style="margin-top:-10px;margin-left:50px; max-width: 35%;"></a>
+				<h1 style="float:left;margin-left:-50px;">PASAR BUKU WILIS</h1>
+			</div>
+			<div id="top">
+			
+				<div class="collapse navbar-collapse" id="myNavbar" style="font-family:calibri;font-size:17px;">
+					
+					<ul class="nav navbar-nav navbar-right"  >
+						<li ><a class="active" href="home.html"><b>BERANDA</b></a></li>
+						<li><a class="active"  href="profil.html" ><b>PROFIL</b></a></li>
+						<li><a class="active" style="color:white; background-color: #B22222;" href="layanan.html"data-toggle="tooltip" title="Layanan" ><b>LAYANAN</b></a></li>
+						<li><a class="active" href="galeri.html"><b>GALERI</b></a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div>
+	</nav>
+	
+
+	<section class="thirdsection" style="margin-top:130px;">
+		<div class="bgthirdsection">
+			<div class="bagian1">
+				<h1>Pasar Buku Wilis</h1>
+				<div class="dividerthird">
+					<div class="dividersectionthird"></div>
+				</div>
+				<h2>"Merupakan pasar wisata buku yang murah di Kota Malang<br>yang ditunjang dengan fasilitas umum bagi para pengunjung"</h2>
+			</div>
+			
+		</div>
+	</section>
+	
+	<div class="row">
+	
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <img src="resources/a1.jpg" alt="Masjid" style="width:100%">
+          <div class="caption">
+            <p>Masjid</p>
+          </div>
+		<div class="overlay1">
+			<div class="text1">Tersedia Masjid</div>
+		</div>
+        
+      </div>
+    </div>
+	
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <img src="resources/a2.jpg" alt="Tempat Duduk Umum" style="width:100%">
+          <div class="caption">
+            <p>Tempat Duduk Umum</p>
+          </div>
+		  <div class="overlay1">
+			<div class="text1">Tersedia Tempat Duduk Umum</div>
+		</div>
+      </div>
+    </div>
+	
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <img src="resources/a3.jpg" alt="Toilet Umum" style="width:100%">
+          <div class="caption">
+            <p>Toilet Umum</p>
+          </div>
+		<div class="overlay1">
+			<div class="text1">Tersedia Toilet Umum</div>
+		</div>
+      </div>
+    </div>
+	
+	<div class="col-md-3">
+      <div class="thumbnail">
+          <img src="resources/a4.jpg" alt="Tempat Parkir Yang Luas" style="width:100%">
+          <div class="caption">
+            <p>Tempat Parkir Yang Luas</p>
+          </div>
+		 <div class="overlay1">
+			<div class="text1">Tempat Parkir Yang Luas</div>
+		</div>
+      </div>
+    </div>
+	
+  </div>
+	
+	
+	<div class="parallax4" id="mainsection" style="margin-top:90px;">
+		<div id="overlay-div">
+		<div style="margin-top:19px;">
+			<div id="parkir">
+				<h2>MASJID</h2>
+				<h3>Tersedia Masjid</h3>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<section class="thirdsection">
+		<div class="bgthirdsection">
+			<div class="bagian1">		
+			<div class="row">
+
+				<div class="col-md-9">
+					<div class="caption1">
+						<p>Bagi para pengunjung tersedia Masjid yang dapat digunakan untuk beribadah, yang terletak di dalam lokasi Pasar Buku Wilis dan dapat diakses secara mudah oleh semua pengunjung. </p>
+					</div>
+				</div>
+				
+				<div class="col-md-3">
+					<img src="masjid.jpg"  class="img-circle  alt="gambar" style="min-width:200px; min-height:200px;">
+				</div>
+			</div>	
+			</div>
+		</div>
+	</section>
+	
+	
+	<div class="parallax5" id="mainsection" style="margin-top:90px;">
+		<div id="overlay-div">
+		<div style="margin-top:19px;">
+			<div id="parkir">
+				<h2>PARKIR</h2>
+				<h3>Tersedia Tempat Parkir yang Luas</h3>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<section class="thirdsection">
+		<div class="bgthirdsection">
+			<div class="bagian1">		
+			<div class="row">
+				<div class="col-md-3">
+					<img src="resources/b1.jpg"  class="img-circle"  alt="gambar" style="min-width:200px; min-height:200px;">
+				</div>
+
+				<div class="col-md-9">
+					<div class="caption2">
+						<p>Anda dapat menggunakan kendaraan pribadi seperti motor atau mobil, maupun menggunakan angkutan umum untuk dapat sampai ke lokasi ini. Berbagai angkutan umum yang dapat digunakan yaitu angkutan umum AT, LG dan ASD </p>
+					</div>
+				</div>
+			</div>	
+			</div>
+		</div>
+	</section>
+	
+
+<div class="parallax6" id="mainsection" style="margin-top:90px;">
+		<div id="overlay-div">
+		<div style="margin-top:19px;">
+			<div id="duduk">
+				<h2>Tempat Duduk</h2>
+				<h3>Tersedia Tempat Duduk Umum Hampir di Setiap Sudut Tempat</h3>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<section class="thirdsection">
+		<div class="bgthirdsection">
+			<div class="bagian1">		
+			<div class="row">
+
+				<div class="col-md-12">
+					<div class="caption1">
+						<p>Pengunjung dapat beristirahat di tempat duduk umum yang terdapat di hampir setiap sudut tempat dalam pasar buku ini. Selain itu juga tersedia banyak penjual makanan maupun warung makan disekitar pasar buku ini.</p>
+					</div>
+				</div>
+			</div>	
+			
+				<br><br>
+				
+<div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail" id="r4">
+          <img src="resources/d1.jpg" alt="gambar" style="width:100%">
+  
+      </div>
+    </div>
+	
+    <div class="col-md-4">
+      <div class="thumbnail" id="r4">
+          <img src="resources/d2.jpg" alt="gambar" style="width:100%">
+   
+      </div>
+    </div>
+	
+    <div class="col-md-4">
+      <div class="thumbnail" id="r4">
+          <img src="resources/d3.jpg" alt="gambar" style="width:100%">
+         
+      </div>
+    </div>
+	
+
+	
+  </div>
+  	
+			
+			</div>
+		</div>
+	</section>
+	
+		
+	
+
+	<footer>
+		<div class="container-fluid" id="contactUs">
+			<div align="left">
+				<img src="logo.png" alt="BakeIT" id="footer-img">
+				<div id="footer-text">
+					<h3 id="contact">Contact Information</h3>
+					<div id="dividefooter"></div>
+					<p>Address	Villa Puncak Tidar N-1 Malang</p>
+					<p>Email	martien96.mf@gmail.com</p>
+					<p>LINE		martien96</p>
+					<p>Whatsapp	085655501701</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
